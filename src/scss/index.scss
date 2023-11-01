@@ -1,0 +1,16 @@
+h1 {
+  font-size: 50px;
+  transform: scale(1.5);
+  transform: translateX(10%);
+
+  span {
+    background: red;
+    font-size: 0.8em;
+    display: block;
+  }
+}
+
+::selection,
+::placeholder {
+  color: rgb(81, 246, 52)
+}
